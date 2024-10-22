@@ -13,7 +13,7 @@ writer = SummaryWriter('logs')
 '''
 for i in range(100):
     writer.add_scalar('y=x',i,i)
-''''''接下来用 tensorboard --logdir=logs 
+''''''接下来用 tensorboard --logdir='logs' 
    注：logs就是跑代码生产的文件夹名'''
 
 img_path = '/home/xuan/PycharmProjects/LearnPytorch/dataset/train/ants/6240329_72c01e663e.jpg'
